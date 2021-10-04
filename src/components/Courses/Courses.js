@@ -12,7 +12,7 @@ const Courses = () => {
     }, [])
     return (
         <div>
-            <h3>Products: {courses.length}</h3>
+            <h3>All Courses</h3>
 
             <div>
                 <Container >

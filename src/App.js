@@ -13,14 +13,15 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Notfound from "./components/Notfound/Notfound";
-// import Services from "./components/Services/Services";
+
+// all import close ///////////////////////////////////////
+
 
 function App() {
   return (
     <div className="">
 
-      {/* <Header></Header>
-      <Footer></Footer> */}
+
 
 
       <Router>

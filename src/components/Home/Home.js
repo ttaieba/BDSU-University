@@ -30,7 +30,7 @@ const Home = () => {
                 <h1 className=" font p-5">most powerful Weapon</h1>
 
 
-                <Button variant="warning m-2">View Coruses</Button>
+                <Button variant="warning m-2">Overview</Button>
                 <Button variant="warning">Learn More</Button>
 
 

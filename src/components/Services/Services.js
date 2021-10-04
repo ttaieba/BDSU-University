@@ -21,7 +21,7 @@ const Services = (props) => {
                 {/* <Button variant="outline-warning">Enroll</Button> */}
 
                 <NavLink to="/Courses">
-                    <Button variant="outline-warning">Overview</Button>
+                    <Button variant="outline-warning">View Coruses</Button>
                 </NavLink>
 
             </div>
