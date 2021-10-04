@@ -1,3 +1,5 @@
+/* for home page style--------------- */
+
 .head {
   background-color:rgba(255,255,0,0.3);
   padding: 20px;
@@ -15,17 +17,22 @@
   background-color:rgba(0,0,255,0.3);
 }
 
-
+/* --------------------------------------- */
 .service{
   display: flex;
 }
 
 
+
+/* Blogs page style------------------- */
 .blogs{
   background-color: rgb(142, 185, 181);
   padding: 25px;
 }
+/* ----------------------------------------- */
 
+
+/* About us page----------------------------- */
 .about{
   
   color: #07294D ; 
@@ -34,7 +41,9 @@
   padding: 50px;
   
 }
+/* ----------------------------------------------- */
 
+/* footer style----------------------------------- */
 .footer{
   background-color:#07294D ;
   padding: 20px;

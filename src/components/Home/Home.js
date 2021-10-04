@@ -4,8 +4,13 @@ import Blogs from '../Blogs/Blogs';
 import About from '../About/About';
 import { Button } from 'react-bootstrap';
 
+// all import close ///////////////////////////////////////
+
+// there are 4 part include in this home page. thaese are: about,blogs, home top and 4item of courses 
 
 const Home = () => {
+
+    // get data from {data json} its put in service component///
     const [services, setServices] = useState([])
 
     useEffect(() => {
@@ -16,6 +21,8 @@ const Home = () => {
     }, [])
     return (
         <div>
+
+            {/* home main page */}
             <div className="head  text-center " >
 
                 <h1 className=" p-5 mt-5 font ">
@@ -31,7 +38,7 @@ const Home = () => {
 
 
             </div>
-
+            {/*  4 Courses   show here */}
             <h1 className="text-warning text=bold p-3">
                 Top Courses</h1>
             <div className="">
@@ -48,6 +55,7 @@ const Home = () => {
                 }
 
             </div>
+            {/* extra two part show in home page */}
             <Blogs></Blogs>
             <About></About>
         </div >

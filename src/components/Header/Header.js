@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Button, Container, Form, FormControl } from 'react-bootstrap';
 import Stack from 'react-bootstrap/Stack'
 
-
+// all import close ///////////////////////////////////////
 
 const Header = () => {
     return (
@@ -20,6 +20,8 @@ const Header = () => {
                             navbarScroll
 
                         >
+                            {/* link all pages//////////// */}
+
                             <Stack direction="horizontal" gap={3}>
                                 <NavLink className="text-white" to="/">Home</NavLink>
 

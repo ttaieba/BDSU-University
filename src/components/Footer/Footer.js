@@ -2,6 +2,10 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container'
 
+// all import close ///////////////////////////////////////
+
+
+
 const Footer = () => {
     return (
         <div className="footer">
