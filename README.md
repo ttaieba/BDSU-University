@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## All customs css style are including into App.css file
+# All customs css style are including into App.css file
 
 In the project directory, you can run:
 
@@ -16,8 +16,11 @@ You will also see any lint errors in the console.
 
 
 
-### Deployment
+# Deployment
 this site is hosting by Netlify
+
+## Data sorce
+there are two json files which in the website. These files meke with fakedata 
 
 
 

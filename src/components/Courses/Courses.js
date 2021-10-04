@@ -22,10 +22,10 @@ const Courses = () => {
 
                                 <Col md={11} className="bg-secondary text-light ">
                                     <img src={product.img} alt="" />
-                                    <div >
+                                    <div className="px-3">
                                         <h4>Course: {product.name}</h4>
                                         <p>Duration: {product.duration}</p>
-                                        <p>Fee: {product.price}</p>
+                                        <p>Fee: ${product.price}</p>
 
                                     </div>
 
